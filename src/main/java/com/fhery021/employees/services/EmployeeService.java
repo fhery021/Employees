@@ -1,9 +1,9 @@
 package com.fhery021.employees.services;
 
-import com.fhery021.employees.domain.Employees;
+import com.fhery021.employees.model.EmployeeDTO;
 
 public interface EmployeeService {
 
-//    EmployeesDTO getRandomEmployee
+    EmployeeDTO getRandomEmployee();
 
 }
